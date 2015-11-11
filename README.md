@@ -25,6 +25,6 @@ Try the proxy from browser
 http://localhost:8000/?d=http://apartemencitraliving.com/img/header-bg.jpg
 
 
-Tentang Fojubel: 
-**Fojubel adalah website jual beli properti, elektronik, otomotif, fashion dan lainnya di Indonesia yang mudah dan aman.** 
+# Tentang Fojubel: 
+#### Fojubel adalah website jual beli properti, elektronik, otomotif, fashion dan lainnya di Indonesia yang mudah dan aman.
 Untuk keterangan lebih lanjut silahkan buka http://www.fojubel.com
