@@ -7,17 +7,24 @@ This image proxy will be a proxy between https to http image url. It is made by 
 
 
 Build:
-export GOPATH=image-https-proxy
+<pre>
+cd image-https-proxy
+export GOPATH=${PWD}
 cd src/image-https-proxy
-go build
 go install
+cd ../../bin
+export PROXY_PORT=8000; ./image-https-proxy
+</pre>
+
+Proxy will listen to port 8000, by default it will listen to port 8080
 
 
-Run the proxy
 
-http://www.example/url?d=http://apartemencitraliving.com/img/header-bg.jpg
+Try the proxy from browser
+
+http://localhost:8000/?d=http://apartemencitraliving.com/img/header-bg.jpg
 
 
 Tentang Fojubel: 
-Fojubel adalah website jual beli properti, elektronik, otomotif, fashion dan lainnya di Indonesia yang mudah dan aman. 
+**Fojubel adalah website jual beli properti, elektronik, otomotif, fashion dan lainnya di Indonesia yang mudah dan aman.** 
 Untuk keterangan lebih lanjut silahkan buka http://www.fojubel.com
